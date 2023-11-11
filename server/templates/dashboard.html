@@ -1,0 +1,66 @@
+<!DOCTYPE>
+
+<html>
+    <head>
+        <title>Dashboard</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    </head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .lookup-container {
+            text-align: center;
+            width: 800px;
+            background-color: #000000;
+            padding: 10px;
+            box-shadow: 0px 10px 43px -5px rgba(0,0,0,0.75); /* https://cssgenerator.org/box-shadow-css-generator.html */
+            color: white;
+            border: none;
+        }
+
+        .form-group {
+            margin-bottom: 5px;
+            display: inline-flex;
+            border: none;
+        }
+
+        .form-group input {
+            width: 800px;
+            padding: 20px;
+            border: none; 
+            text-align: center;
+/*            box-sizing: border-box; */
+            /*text-align: center;*/
+            cursor: pointer;
+           /* caret-color: transparent; */
+            background-color: black;
+            color: rgb(21,74,10);
+            font-size: 24px;
+            caret-color: rgb(21,74,10);
+        }
+
+        #domain:focus {
+            outline: none;
+        }
+        </style>
+
+<div class='lookup-container'>
+    <!-- <h2>Vault Password:</h2> */ -->
+    <form id='domainLookup' method='post' action='/dashboard'>
+        <div class='form-group'>
+            <input type='text' id='domain' name='domain' required autofocus autocomplete='off' novalidate placeholder=' {{ get_flashed_messages()[0] }}'>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
