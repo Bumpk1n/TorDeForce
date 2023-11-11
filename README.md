@@ -14,6 +14,8 @@ It's a fairly easy challenge that a little requires code analysis and lateral th
 
 Unfortunately I am not currently hosting this server remotely, so in order to test the challenge you will need to run the server yourself. 
 
+![Challenge Login](images/login.png)
+
 > I am working on Docker-fying this repo, which should make things easier to install. Progress TBC
 
 ```sh
@@ -26,6 +28,7 @@ python3 -m pip install -r /opt/TorDeForce/requirements.txt
 chmod 700 /opt/TorDeForce/server
 
 # Start the server
+python3 /opt/TorDeForce/server/app.py &
 tor -f /opt/TorDeForce/server/torrc & sleep 5; echo -e "\nTor Domain: $(cat /opt/TorDeForce/server/hostname)\n"; fg
 ```
 
