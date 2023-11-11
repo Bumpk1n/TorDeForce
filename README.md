@@ -1,6 +1,6 @@
 # Tor de Force
 
-Just a small project that was begun after NetCraft's Dark Markets workshop.
+This is just a small project that was created after getting inspired from NetCraft's Dark Markets workshop.
 
 The primary focus is developing some small modules to help fingerprint/deanonymize servers on the dark web.
 
@@ -40,3 +40,10 @@ Current Modules:
 - Fingerprint SSH certificates
 - Fingerprint Favicon hash
 
+## Further Reading
+
+[Caronte Automated Tool](https://dl.acm.org/doi/abs/10.1145/2810103.2813667)
+[Tor De-anonymisation Techniques](https://link.springer.com/chapter/10.1007/978-3-319-64701-2_52)
+[De-anonymisation Trawling](https://ieeexplore.ieee.org/abstract/document/6547103)
+[POSTER: Fingerprinting Tor Hidden Services](https://www.researchgate.net/publication/310821261_POSTER_Fingerprinting_Tor_Hidden_Services)
+[Deanonymize Tor](https://www.slideshare.net/FabrizioFarinacci1/deanonymize-tor-hidden-services-76463821)
