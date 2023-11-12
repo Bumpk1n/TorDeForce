@@ -1,6 +1,6 @@
 # Tor de Force
 
-This is just a small project that was created after getting inspired from NetCraft's Dark Markets workshop.
+This is just a small project that was created after getting inspired by NetCraft's Dark Markets workshop.
 
 The primary focus is developing some small modules to help fingerprint/deanonymize servers on the dark web.
 
@@ -39,6 +39,8 @@ Current Modules:
 - Fingerprint HTTPs certificates
 - Fingerprint SSH certificates
 - Fingerprint Favicon hash
+
+> Need to incorporate the Shodan API to automate this lookup process. 
 
 ## Further Reading
 
