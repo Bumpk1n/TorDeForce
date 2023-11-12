@@ -19,6 +19,7 @@ This reveals the password is (including spaces):correct horse battery staple
 Logging into the vault with this password reveals the dashboard with an onion domain lookup service.
 However we need to bypass the '.onion' domain name in order to send a request to our own domain.
 Regex treats the `.` character as any literal character, so we could set our domain as google.com/Aonion and it would still match.
+
 Using http://requestrepo.com, we can enter our generated domain as 0gno3uxx.requestrepo.com/Aonion to receieve a GET request, leaking the IP address.
 </details>
 
@@ -99,4 +100,4 @@ Using http://requestrepo.com, we can enter our generated domain as 0gno3uxx.requ
 
 
 
- Scrolling up will reveal spoilers if you're still working on the challenge <3
+ <!-- Scrolling up will reveal spoilers if you're still working on the challenge <3 -->
